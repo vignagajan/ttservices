@@ -1,6 +1,6 @@
 package com.ttservices.trader;
 
-public record TraderRecord(
+public record TraderRegReq(
         String firstName,
         String lastName,
         String email) {

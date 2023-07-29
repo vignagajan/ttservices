@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public record TraderController {
 
     @PostMapping
-    public void registerTrader(@RequestBody TraderRequest traderRequest){
+    public void registerTrader(@RequestBody TraderRegReq traderRequest){
         log.info("New trader registration: {}",traderRequest);
     }
 }
