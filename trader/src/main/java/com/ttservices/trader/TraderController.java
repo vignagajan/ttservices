@@ -9,10 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RestController
 @RequestMapping("api/v1/traders")
-public record TraderController {
+public record TraderController(TraderService traderService){
 
     @PostMapping
     public void registerTrader(@RequestBody TraderRegReq traderRequest){
         log.info("New trader registration: {}",traderRequest);
+        traderService.register(traderRequest);
     }
 }
