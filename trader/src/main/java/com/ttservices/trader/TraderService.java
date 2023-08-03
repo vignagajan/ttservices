@@ -1,6 +1,6 @@
 package com.ttservices.trader;
 
-public record TraderService() {
+public record TraderService(TraderRepository traderRepository) {
 
     public void register(TraderRegReq request){
         Trader trader = Trader.builder()
@@ -9,5 +9,6 @@ public record TraderService() {
                 .email(request.email())
                 .build();
         // TODO: Validation
+        traderRepository.save(trader);
     }
 }
