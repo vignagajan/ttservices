@@ -13,7 +13,7 @@ public class FraudCheckService {
         this.fraudCheckHistroyRepository = fraudCheckHistroyRepository;
     }
 
-    public boolean isFraudurentCustomer(Integer customerId){
+    public boolean isFraudulentCustomer(Integer customerId){
         fraudCheckHistroyRepository.save(
                 FraudCheckHistory.builder()
                         .customerId(customerId)
