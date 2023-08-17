@@ -12,6 +12,7 @@
   <modules>
     <module>trader</module>
       <module>fraud</module>
+    <module>eureka-server</module>
   </modules>
 
   <name>ttservices</name>
