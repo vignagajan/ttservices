@@ -28,7 +28,7 @@ The project is designed with the following components:
 - [x] Message Passing Microservice
 - [x] Data Streaming Microservice
 - [x] Docker Containerization
-- [] Integration Testing & Deployment Setup
+- [ ] Integration Testing & Deployment Setup
 
 ## Technologies
 
