@@ -23,12 +23,12 @@ The project is designed with the following components:
 
 ## Progress
 
-[x] Microservices Architecture Design
-[x] User Management Implementation
-[x] Message Passing Microservice
-[x] Data Streaming Microservice
-[x] Docker Containerization
-[] Integration Testing & Deployment Setup
+- [x] Microservices Architecture Design
+- [x] User Management Implementation
+- [x] Message Passing Microservice
+- [x] Data Streaming Microservice
+- [x] Docker Containerization
+- [] Integration Testing & Deployment Setup
 
 ## Technologies
 
